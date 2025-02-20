@@ -1,12 +1,7 @@
 package easy;
-
-import java.sql.SQLOutput;
-
-public class Main {
-
+public class Main{
   public static void main(String[] args) {
-    System.out.println("Проверка");
-    
+    StringPrinter printer = new StringPrinter();
+    printer.print("Привет, мир!");
   }
-
 }
